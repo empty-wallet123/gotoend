@@ -21,7 +21,7 @@ const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   let changed = true
-  if (mySrc === "images/IMG_0521.jpg" & changed)  {
+  if (mySrc === "images/cat1.jpg" & changed)  {
     myImage.setAttribute("src", "images/cat2.jpg");
     changed = false;
   } 
@@ -30,7 +30,7 @@ myImage.onclick = () => {
     changed = false;
   }  
   if (mySrc === "images/cat3.jfif" & changed) {
-    myImage.setAttribute("src", "images/IMG_0521.jpg");
+    myImage.setAttribute("src", "images/cat1.jpg");
     changed = false;
   }  
   }
